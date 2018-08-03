@@ -1,7 +1,7 @@
-const n = parseInt(prompt('Enter sequence number:'));
-function fibonacci(num) {
-  if (num <= 2) return 1;
+const a = parseInt(prompt('Enter sequence number:'));
+function fibonacci(a) {
+  if (a <= 2) return 1;
 
-  return fibonacci(num - 1) + fibonacci(num - 2);
+  return fibonacci(a - 1) + fibonacci(a - 2);
 }
-alert (fibonacci(n));
+alert (fibonacci(a));
